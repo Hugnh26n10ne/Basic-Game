@@ -4,7 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - BoxDestroy
+  - Money
+  - Nitro
+  - Boss
+  - CarNoDestroy
+  - Enemy
   - Bomb
+  - toCoins
   layers:
   - Default
   - TransparentFX
@@ -39,6 +46,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3628511881
+    locked: 0
+  - name: Base
+    uniqueID: 2049812051
+    locked: 0
+  - name: Skidmarks
+    uniqueID: 3538928131
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Boss
+    uniqueID: 1027388327
+    locked: 0
+  - name: Particle
+    uniqueID: 4127832299
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2599669663
+    locked: 0
+  - name: GetMoney
+    uniqueID: 3852550145
+    locked: 0
+  - name: UI
+    uniqueID: 4133573225
     locked: 0

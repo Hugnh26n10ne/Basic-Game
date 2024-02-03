@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 1cf91cb9b5e5ca94493b4608feb6cb54
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: city_cars_2_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 136
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 9}
+        - {x: -24, y: -9}
+        - {x: 24, y: -9}
+        - {x: 24, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f93c95a43f49e4685a03e1af9989bd
+      internalID: 633652329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 121
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 19.5}
+        - {x: -8, y: -19.5}
+        - {x: 8, y: -19.5}
+        - {x: 8, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70440902afb1c3741b9aeb049a95649e
+      internalID: -1592814779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 121
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 19.5}
+        - {x: -8, y: -19.5}
+        - {x: 8, y: -19.5}
+        - {x: 8, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8255a822989f34b8ffdc4be2b10c88
+      internalID: 1052473990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 117
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: -9}
+        - {x: 24, y: -9}
+        - {x: 24, y: 9}
+        - {x: -24, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c343b04b7db9174895a2bcbd3902802
+      internalID: -1168266462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 81
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 19.5}
+        - {x: -8, y: -19.5}
+        - {x: 8, y: -19.5}
+        - {x: 8, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e77bc1c0e41e75489d7b2ca49b0fd24
+      internalID: 102370049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 81
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 19.5}
+        - {x: -8, y: -19.5}
+        - {x: 8, y: -19.5}
+        - {x: 8, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3738c4d18e1639d4eae51037e21d2fd0
+      internalID: 1244850263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 98
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23.5, y: 9}
+        - {x: -23.5, y: -9}
+        - {x: 23.5, y: -9}
+        - {x: 23.5, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb479c9fe9413e40879dbfe406c16dc
+      internalID: 1992858427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 79
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23.5, y: 9}
+        - {x: -23.5, y: -9}
+        - {x: 23.5, y: -9}
+        - {x: 23.5, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c01f035ebbad04c9c4dbf4ab81e147
+      internalID: -1604913071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 41
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: 19.5}
+        - {x: -8.5, y: -19.5}
+        - {x: 8.5, y: -19.5}
+        - {x: 8.5, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec1c749d4fc0d0498d2a5811930af23
+      internalID: 655454453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 41
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: 19.5}
+        - {x: -8.5, y: -18.5}
+        - {x: -7.5, y: -19.5}
+        - {x: 7.5, y: -19.5}
+        - {x: 8.5, y: -18.5}
+        - {x: 8.5, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb1b5d88dbffff41b62ae087860dc6e
+      internalID: -242343467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59
+        width: 50
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -25, y: 9.5}
+        - {x: -25, y: -9.5}
+        - {x: 25, y: -9.5}
+        - {x: 25, y: 6.5}
+        - {x: 21, y: 9.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78192822a7ec05e428b0890f77895df5
+      internalID: -1719148780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 50
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -18, y: 9.5}
+        - {x: -25, y: 6.5}
+        - {x: -25, y: -9.5}
+        - {x: 25, y: -9.5}
+        - {x: 25, y: 8.5}
+        - {x: 24, y: 9.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460d28864954c3d47a16737299631214
+      internalID: 2078335970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 19.5}
+        - {x: -8, y: -19.5}
+        - {x: 8, y: -19.5}
+        - {x: 8, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0f63370bc8c584fbcab9783d89d8ab
+      internalID: 37241629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 19.5}
+        - {x: -8, y: -19.5}
+        - {x: 8, y: -19.5}
+        - {x: 8, y: 19.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7727ab03d5272534cb9e3602c3286819
+      internalID: -427392058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 20
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23.5, y: 9}
+        - {x: -23.5, y: -9}
+        - {x: 23.5, y: -9}
+        - {x: 23.5, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c93976aa2d4aa942b709fa979d35949
+      internalID: 689462626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city_cars_2_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23.5, y: 9}
+        - {x: -23.5, y: -9}
+        - {x: 23.5, y: -9}
+        - {x: 23.5, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461412c820229c846a2c9dee69005ba3
+      internalID: 122751950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      city_cars_2_0: 633652329
+      city_cars_2_1: -1592814779
+      city_cars_2_10: -1719148780
+      city_cars_2_11: 2078335970
+      city_cars_2_12: 37241629
+      city_cars_2_13: -427392058
+      city_cars_2_14: 689462626
+      city_cars_2_15: 122751950
+      city_cars_2_2: 1052473990
+      city_cars_2_3: -1168266462
+      city_cars_2_4: 102370049
+      city_cars_2_5: 1244850263
+      city_cars_2_6: 1992858427
+      city_cars_2_7: -1604913071
+      city_cars_2_8: 655454453
+      city_cars_2_9: -242343467
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,19 +5,22 @@ using UnityEngine;
 
 public class DamageReceiver : MonoBehaviour
 {
+    [SerializeField] private HeathBar heathBar;
 
-    [SerializeField] double hp = 10;
-
-
+    private void Start()
+    {
+        this.heathBar = GameObject.Find("HeathBar").GetComponent<HeathBar>();
+    }
     public virtual bool IsDead()
     {
-        return hp <= 0;
+        return PlayerStats.Instance.hp <= 0;
     }
     public virtual void Receive(float damage)
     {
-        if (this.hp <= 0) return;
+        if (PlayerStats.Instance.hp <= 0) return;
 
-        this.hp -= damage;
-        this.hp = Math.Round(this.hp,2);
+        PlayerStats.Instance.hp -= damage;
+        PlayerStats.Instance.hp = Math.Round(PlayerStats.Instance.hp,2);
+        this.heathBar.SetHealth(PlayerStats.Instance.hp);
     }
 }

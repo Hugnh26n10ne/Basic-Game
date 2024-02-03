@@ -1,37 +1,36 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemySpawner : MonoBehaviour
+public class EnemySpawner : Spawner
 {
-    [SerializeField] GameObject enemyPrefabs;
+    [SerializeField] private List<GameObject> enemySpawners;
+    private GameObject enemyCurrent;
 
-
-    protected float spawnTimer = 0f;
-    protected float spawnDelay = 2f;
-
-    private void Awake()
+    private void Start()
     {
-        this.enemyPrefabs = GameObject.Find("Enemy");
-        this.enemyPrefabs.SetActive(false);
+        base.spawnDelay = 4f;
+        base.coutObject = 1;
+    }
+    private void Update()
+    {
+        if (Time.time % 40 == 0 && base.coutObject < 5) base.coutObject++;
 
+        this.enemyCurrent = this.enemySpawners[Random.Range(0, enemySpawners.Count)];
+        base.objectPrefab = this.enemyCurrent;
+        this.RandomPos();
+        Invoke(nameof(this.Spawn), 5f);
+        base.CheckObjectExplode();
+    }
+    protected override void Spawn()
+    {
+        base.Spawn();
     }
 
-    private void FixedUpdate()
+    protected virtual void RandomPos()
     {
-        this.SpawnerEnemy();
+        base.xPos = Random.Range(-5f, 5f);
+        base.yPos = Camera.main.transform.position.y + 30f + Random.value * 20f;
     }
-    void SpawnerEnemy()
-    {
-        if (PlayerController.instance.damageReceiver.IsDead()) return;
-
-        this.spawnTimer += Time.fixedDeltaTime;
-        if (this.spawnTimer < this.spawnDelay) return;
-        this.spawnTimer = 0f;
-
-        GameObject enemy = Instantiate(this.enemyPrefabs);
-        enemy.SetActive(true);
-        enemy.transform.position = transform.position;
-    }
-
 }
